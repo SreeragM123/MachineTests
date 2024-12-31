@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  color: #6c757d;
+}
+
+/* Search Bar */
+.search-input {
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.75);
+  border-color: #007bff;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px;
+  background-color: #ffffff;
+}
+
+.card .card-body {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.card-button {
+  margin-top: 10px;
+}
+
+/* Movie Detail Page */
+.movie-detail-card {
+  margin-top: 20px;
+}
+
+.movie-detail-card .card-body {
+  text-align: center; /* Optional: Centers the text inside the card */
+}
+
+.movie-detail-card .card-title {
+  font-size: 1.5rem; /* Adjust font size of the title */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.movie-detail-card .card-text {
+  font-size: 1.1rem;
+}
+
+
+/* Button */
+button {
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Layout */
+.container {
+  padding: 30px 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 1 100%;
+  max-width: 400px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .col {
+    flex: 1 1 48%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col {
+    flex: 1 1 30%;
+  }
+}
+
+
+/* Add some padding around the favorite button */
+.card-body button {
+  margin-top: 10px;
+}
+
+button.btn-outline-primary {
+  margin-top: 10px;
+}
